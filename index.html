@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="welcome show">
+    <p>welcome to a quick quiz game</p>
+    <button id="startBtn">start now</button>
+  </div>
+  
+  <div class="resultModal">
+    <h4>Qiz Game Completed</h4><br>
+    <p id="finalScore"></p>
+    <p id="comment"></p><br>
+    <button onClick="playAgain()">play again</button>
+  </div>
+  
+  
+  <div class="container">
+    <div class="quiz">
+      <textarea readonly id="quizContent">what is the nearest planet to the sun?</textarea>
+    </div>
+    <div class="score-board">
+      <span id="quizNumber">question 1 of 5</span>
+      <span id="score">Score: 0</span>
+    </div>
+    <div class="answers">
+      <ul id="answers">
+        <li>Earth</li>
+        <li>Jupiter</li>
+        <li>Satan</li>
+        <li>Venus</li>
+      </ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
