@@ -20,7 +20,7 @@ A fun, interactive quiz game to test your knowledge!
 
 1. Clone the repository
    ```shell
-   git clone
+   git clone https://github.com/DevKevo25/QuizGame.git
    ```
 3. Open `index.html` in your browser
 4. Select answers and click Next
@@ -28,6 +28,7 @@ A fun, interactive quiz game to test your knowledge!
 
 ## 📸 SCREENSHOT
 
-![Quiz App Screenshot](screenshot.png)
-
-## 📁 PROJECT STRUCTURE
+![Quiz App Screenshot](https://files.catbox.moe/p8v8j4.jpg)
+![Quiz App Screenshot](https://files.catbox.moe/mbe7r1.jpg)
+![Quiz App Screenshot](https://files.catbox.moe/2qe40o.jpg)
+![Quiz App Screenshot](https://files.catbox.moe/adlxuw.jpg)
